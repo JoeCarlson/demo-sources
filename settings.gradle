@@ -1,0 +1,5 @@
+rootProject.name = 'bio-sources'
+include ':bio-source-db-direct-demo'
+project(':bio-source-db-direct-demo').projectDir = new File(settingsDir, './db-direct-demo')
+include ':bio-source-file-direct-demo'
+project(':bio-source-file-direct-demo').projectDir = new File(settingsDir, './file-direct-demo')
